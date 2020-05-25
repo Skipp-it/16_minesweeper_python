@@ -29,3 +29,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.game-field .row .field.mine {
+    height: 16px;
+    width: 16px;
+    background: url('/static/img/closed-field.png');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-field .row .mine {
+    height: 16px;
+    width: 16px;
+    background: url('/static/img/mine.png');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-field .row .flag {
+    height: 16px;
+    width: 16px;
+    background: url('/static/img/flag.png');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-field .row .flag.mine {
+    height: 16px;
+    width: 16px;
+    background: url('/static/img/flag.png');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-field .row .openField {
+    height: 16px;
+    width: 16px;
+    background: url('/static/img/open-field.png');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
